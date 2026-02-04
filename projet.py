@@ -1,5 +1,7 @@
 import tkinter as tk
 
+
+
 films = [
     {"Titre": "Inception", "Genre": ["Action", "Science Fiction"]},
     {"Titre": "Titanic", "Genre": ["Romance", "Drama"]},
@@ -14,16 +16,21 @@ films = [
     {"Titre": "Pulp Fiction", "Genre": ["Crime", "Drama"]},
     {"Titre": "Whiplash", "Genre": ["Musical", "Drama"]},
     {"Titre": "grande bataille d'algerie", "Genre": ["Pour les vrais DZ"]},
+    {"Titre": "Maroc > Algerie", "Genre": ["Pour les vrais"]},
+
 ]
 
 
-options = ["Action", "Romance", "Crime", "Musical", "Science Fiction", "Drama", "Comedy","pour les NEUILLE","Pour les vrais DZ"]
+options = ["Action", "Romance", "Crime", "Musical", "Science Fiction", "Drama", "Comedy","pour les NEUILLE","Pour les vrais DZ", "Pour les vrais"]
 
 
 root = tk.Tk()
 root.title("🎬 Recommandateur de Films 🎬")
 root.geometry("800x600")
 root.configure(bg="#414153")
+
+
+
 
 
 var_dict = {}
